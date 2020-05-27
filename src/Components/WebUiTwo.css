@@ -1,0 +1,96 @@
+.GreyBG {
+  width: 100%;
+  height: 800px;
+  background-color: #fcfcfc;
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+}
+
+.EventsGroup {
+  margin: 0 250px;
+  /* height: 650px; */
+  background: #f8fafa;
+  box-shadow: 0px 10px 46px rgba(28, 28, 28, 0.15);
+  align-self: center;
+}
+
+.EventsGroup h1 {
+  margin: 0;
+  padding: 35px 0 0 35px;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #bec1ca;
+}
+
+.AllEvents {
+  padding: 35px;
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  grid-gap: 35px;
+}
+
+.Rectangle {
+  /* max-width: 730px; */
+  height: auto;
+  background: white;
+  box-shadow: 0px 7px 27px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: 14px auto 170px;
+}
+
+.Rectangle h2 {
+  margin: 0;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #222840;
+  padding: 20px 0 0 40px;
+}
+
+.Rectangle p {
+  margin: 0;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #bec1ca;
+  padding: 10px 0 20px 40px;
+}
+
+.Rectangle a {
+  margin: auto;
+  text-decoration: none;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  padding: 7px 20px;
+  background: #6cdceb;
+  border: 2px solid #fefefe;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 45px;
+  transition: 0.8s cubic-bezier(0.3, 0.8, 0.3, 1);
+}
+
+.Rectangle a:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.GreenRec {
+  margin: 0;
+  width: 14px;
+  height: auto;
+  background: #89d8c9;
+  border-radius: 4px 0px 0px 4px;
+}
+
+.Text {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+}
